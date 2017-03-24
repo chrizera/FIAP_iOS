@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1024C51E85DE3900EE24C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024C41E85DE3900EE24C6 /* main.m */; };
+		AC1024C81E85DE3900EE24C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024C71E85DE3900EE24C6 /* AppDelegate.m */; };
+		AC1024CB1E85DE3900EE24C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024CA1E85DE3900EE24C6 /* ViewController.m */; };
+		AC1024CE1E85DE3900EE24C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1024CC1E85DE3900EE24C6 /* Main.storyboard */; };
+		AC1024D01E85DE3900EE24C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1024CF1E85DE3900EE24C6 /* Assets.xcassets */; };
+		AC1024D31E85DE3900EE24C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1024D11E85DE3900EE24C6 /* LaunchScreen.storyboard */; };
+		AC1024DE1E85DE3900EE24C6 /* Aula8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024DD1E85DE3900EE24C6 /* Aula8Tests.m */; };
+		AC1024E91E85DE3900EE24C6 /* Aula8UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024E81E85DE3900EE24C6 /* Aula8UITests.m */; };
+		AC1024F81E85DF0E00EE24C6 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1024F71E85DF0E00EE24C6 /* Pessoa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1024DA1E85DE3900EE24C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1024B81E85DE3900EE24C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1024BF1E85DE3900EE24C6;
+			remoteInfo = Aula8;
+		};
+		AC1024E51E85DE3900EE24C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1024B81E85DE3900EE24C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1024BF1E85DE3900EE24C6;
+			remoteInfo = Aula8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1024C01E85DE3900EE24C6 /* Aula8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1024C41E85DE3900EE24C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC1024C61E85DE3900EE24C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC1024C71E85DE3900EE24C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC1024C91E85DE3900EE24C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC1024CA1E85DE3900EE24C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC1024CD1E85DE3900EE24C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1024CF1E85DE3900EE24C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1024D21E85DE3900EE24C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1024D41E85DE3900EE24C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1024D91E85DE3900EE24C6 /* Aula8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aula8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1024DD1E85DE3900EE24C6 /* Aula8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula8Tests.m; sourceTree = "<group>"; };
+		AC1024DF1E85DE3900EE24C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1024E41E85DE3900EE24C6 /* Aula8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aula8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1024E81E85DE3900EE24C6 /* Aula8UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula8UITests.m; sourceTree = "<group>"; };
+		AC1024EA1E85DE3900EE24C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1024F61E85DF0E00EE24C6 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		AC1024F71E85DF0E00EE24C6 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1024BD1E85DE3900EE24C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024D61E85DE3900EE24C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024E11E85DE3900EE24C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1024B71E85DE3900EE24C6 = {
+			isa = PBXGroup;
+			children = (
+				AC1024C21E85DE3900EE24C6 /* Aula8 */,
+				AC1024DC1E85DE3900EE24C6 /* Aula8Tests */,
+				AC1024E71E85DE3900EE24C6 /* Aula8UITests */,
+				AC1024C11E85DE3900EE24C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1024C11E85DE3900EE24C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1024C01E85DE3900EE24C6 /* Aula8.app */,
+				AC1024D91E85DE3900EE24C6 /* Aula8Tests.xctest */,
+				AC1024E41E85DE3900EE24C6 /* Aula8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1024C21E85DE3900EE24C6 /* Aula8 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1024C61E85DE3900EE24C6 /* AppDelegate.h */,
+				AC1024C71E85DE3900EE24C6 /* AppDelegate.m */,
+				AC1024C91E85DE3900EE24C6 /* ViewController.h */,
+				AC1024CA1E85DE3900EE24C6 /* ViewController.m */,
+				AC1024CC1E85DE3900EE24C6 /* Main.storyboard */,
+				AC1024CF1E85DE3900EE24C6 /* Assets.xcassets */,
+				AC1024D11E85DE3900EE24C6 /* LaunchScreen.storyboard */,
+				AC1024F61E85DF0E00EE24C6 /* Pessoa.h */,
+				AC1024F71E85DF0E00EE24C6 /* Pessoa.m */,
+				AC1024D41E85DE3900EE24C6 /* Info.plist */,
+				AC1024C31E85DE3900EE24C6 /* Supporting Files */,
+			);
+			path = Aula8;
+			sourceTree = "<group>";
+		};
+		AC1024C31E85DE3900EE24C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1024C41E85DE3900EE24C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC1024DC1E85DE3900EE24C6 /* Aula8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1024DD1E85DE3900EE24C6 /* Aula8Tests.m */,
+				AC1024DF1E85DE3900EE24C6 /* Info.plist */,
+			);
+			path = Aula8Tests;
+			sourceTree = "<group>";
+		};
+		AC1024E71E85DE3900EE24C6 /* Aula8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1024E81E85DE3900EE24C6 /* Aula8UITests.m */,
+				AC1024EA1E85DE3900EE24C6 /* Info.plist */,
+			);
+			path = Aula8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1024BF1E85DE3900EE24C6 /* Aula8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1024ED1E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8" */;
+			buildPhases = (
+				AC1024BC1E85DE3900EE24C6 /* Sources */,
+				AC1024BD1E85DE3900EE24C6 /* Frameworks */,
+				AC1024BE1E85DE3900EE24C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula8;
+			productName = Aula8;
+			productReference = AC1024C01E85DE3900EE24C6 /* Aula8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1024D81E85DE3900EE24C6 /* Aula8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1024F01E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8Tests" */;
+			buildPhases = (
+				AC1024D51E85DE3900EE24C6 /* Sources */,
+				AC1024D61E85DE3900EE24C6 /* Frameworks */,
+				AC1024D71E85DE3900EE24C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1024DB1E85DE3900EE24C6 /* PBXTargetDependency */,
+			);
+			name = Aula8Tests;
+			productName = Aula8Tests;
+			productReference = AC1024D91E85DE3900EE24C6 /* Aula8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC1024E31E85DE3900EE24C6 /* Aula8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1024F31E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8UITests" */;
+			buildPhases = (
+				AC1024E01E85DE3900EE24C6 /* Sources */,
+				AC1024E11E85DE3900EE24C6 /* Frameworks */,
+				AC1024E21E85DE3900EE24C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1024E61E85DE3900EE24C6 /* PBXTargetDependency */,
+			);
+			name = Aula8UITests;
+			productName = Aula8UITests;
+			productReference = AC1024E41E85DE3900EE24C6 /* Aula8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1024B81E85DE3900EE24C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					AC1024BF1E85DE3900EE24C6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC1024D81E85DE3900EE24C6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1024BF1E85DE3900EE24C6;
+					};
+					AC1024E31E85DE3900EE24C6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1024BF1E85DE3900EE24C6;
+					};
+				};
+			};
+			buildConfigurationList = AC1024BB1E85DE3900EE24C6 /* Build configuration list for PBXProject "Aula8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1024B71E85DE3900EE24C6;
+			productRefGroup = AC1024C11E85DE3900EE24C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1024BF1E85DE3900EE24C6 /* Aula8 */,
+				AC1024D81E85DE3900EE24C6 /* Aula8Tests */,
+				AC1024E31E85DE3900EE24C6 /* Aula8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1024BE1E85DE3900EE24C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1024D31E85DE3900EE24C6 /* LaunchScreen.storyboard in Resources */,
+				AC1024D01E85DE3900EE24C6 /* Assets.xcassets in Resources */,
+				AC1024CE1E85DE3900EE24C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024D71E85DE3900EE24C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024E21E85DE3900EE24C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1024BC1E85DE3900EE24C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1024CB1E85DE3900EE24C6 /* ViewController.m in Sources */,
+				AC1024C81E85DE3900EE24C6 /* AppDelegate.m in Sources */,
+				AC1024F81E85DF0E00EE24C6 /* Pessoa.m in Sources */,
+				AC1024C51E85DE3900EE24C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024D51E85DE3900EE24C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1024DE1E85DE3900EE24C6 /* Aula8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1024E01E85DE3900EE24C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1024E91E85DE3900EE24C6 /* Aula8UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1024DB1E85DE3900EE24C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1024BF1E85DE3900EE24C6 /* Aula8 */;
+			targetProxy = AC1024DA1E85DE3900EE24C6 /* PBXContainerItemProxy */;
+		};
+		AC1024E61E85DE3900EE24C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1024BF1E85DE3900EE24C6 /* Aula8 */;
+			targetProxy = AC1024E51E85DE3900EE24C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1024CC1E85DE3900EE24C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1024CD1E85DE3900EE24C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC1024D11E85DE3900EE24C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1024D21E85DE3900EE24C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1024EB1E85DE3900EE24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1024EC1E85DE3900EE24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1024EE1E85DE3900EE24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aula8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC1024EF1E85DE3900EE24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aula8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC1024F11E85DE3900EE24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aula8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aula8.app/Aula8";
+			};
+			name = Debug;
+		};
+		AC1024F21E85DE3900EE24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aula8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aula8.app/Aula8";
+			};
+			name = Release;
+		};
+		AC1024F41E85DE3900EE24C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Aula8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aula8;
+			};
+			name = Debug;
+		};
+		AC1024F51E85DE3900EE24C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Aula8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiap.chris.Aula8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aula8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1024BB1E85DE3900EE24C6 /* Build configuration list for PBXProject "Aula8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1024EB1E85DE3900EE24C6 /* Debug */,
+				AC1024EC1E85DE3900EE24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1024ED1E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1024EE1E85DE3900EE24C6 /* Debug */,
+				AC1024EF1E85DE3900EE24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1024F01E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1024F11E85DE3900EE24C6 /* Debug */,
+				AC1024F21E85DE3900EE24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1024F31E85DE3900EE24C6 /* Build configuration list for PBXNativeTarget "Aula8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1024F41E85DE3900EE24C6 /* Debug */,
+				AC1024F51E85DE3900EE24C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1024B81E85DE3900EE24C6 /* Project object */;
+}
