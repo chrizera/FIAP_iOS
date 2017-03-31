@@ -11,14 +11,14 @@
 @implementation Pessoa
 
 - (void) calcularIMC {
-    imc = peso/pow(altura, 2);
+    _imc = _peso/pow(_altura, 2);
 
 }
 
 - (float) calcularIMC_2 {
-    imc = peso/pow(altura, 2);
+    _imc = _peso/pow(_altura, 2);
     
-    return imc;
+    return _imc;
 }
 
 @end
